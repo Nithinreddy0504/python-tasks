@@ -101,21 +101,7 @@ for i in range(1,101):
     if(i%5==0 and i%7==0):
         print(i); 
 
-
-
-
-
-
-# 5) Implement a basic login system where the user has three attempts to enter the correct password using a loop.
-password='king123';
-for i in range(1,4):
-    user_input=input('enter your correct password');
-    if(password==user_input):
-        print('you are entered correct password');
-        break;
-    else:
-        print('you are entered wrong password');
-# 6) Implement a menu-driven program where the user can choose to: 1.  Find the square of a number. 2.  Find the cube of a number. 3.  Exit.
+# 5) Implement a menu-driven program where the user can choose to: 1.  Find the square of a number. 2.  Find the cube of a number. 3.  Exit.
 
     
 for i in range(1,4):    
@@ -132,3 +118,12 @@ for i in range(1,4):
         print(user_input3*user_input3*user_input3);
     else:
         break;
+    # 6) Implement a basic login system where the user has three attempts to enter the correct password using a loop.
+password='king123';
+for i in range(1,4):
+    user_input=input('enter your correct password');
+    if(password==user_input):
+        print('you are entered correct password');
+        break;
+    else:
+        print('you are entered wrong password');
